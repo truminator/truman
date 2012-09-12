@@ -1,4 +1,6 @@
 Hello::Application.routes.draw do
+  resources :tools
+
   get "mysample/index"
 
   get "mycontrol/index"
